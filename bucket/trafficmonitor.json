@@ -1,0 +1,34 @@
+{
+    "version": "1.86",
+    "description": "TrafficMonitor - 任务栏网速与硬件监控工具",
+    "homepage": "https://github.com/zhongyang219/TrafficMonitor",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.86/TrafficMonitor_V1.86_x64.zip",
+            "hash": "948ddc12cc582e8cf0b7b32e0064544f6f711265a7671c2e47343a6a0ff4908e"
+        }
+    },
+    "bin": "TrafficMonitor.exe",
+    "shortcuts": [
+        [
+            "TrafficMonitor.exe",
+            "TrafficMonitor"
+        ]
+    ],
+    "persist": [
+        "config.ini",
+        "skins"
+    ],
+    "checkver": {
+        "github": "zhongyang219/TrafficMonitor",
+        "regex": "tag/V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V$version/TrafficMonitor_V$version_x64.zip"
+            }
+        }
+    }
+}
