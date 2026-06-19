@@ -18,7 +18,7 @@
 
 *   **方式 A：通过本地文件路径添加（推荐本地开发使用）**
     ```powershell
-    scoop bucket add my-bucket "c:\Users\maorila\Documents\scoop-bucket"
+    scoop bucket add my-bucket "file:///c:/Users/maorila/Documents/scoop-bucket"
     ```
 *   **方式 B：通过远程 Git 仓库添加（推送到 GitHub / Gitee 后使用）**
     ```powershell
@@ -151,7 +151,7 @@ scoop lint bucket/demo-tool.json
 
 1.  **将本地仓库添加为 Scoop Bucket**：
     ```powershell
-    scoop bucket add my-bucket c:\Users\maorila\Documents\scoop-bucket
+    scoop bucket add my-bucket "file:///c:/Users/maorila/Documents/scoop-bucket"
     ```
 2.  **验证软件是否可被搜索**：
     ```powershell
