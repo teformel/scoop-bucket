@@ -1,0 +1,41 @@
+{
+    "version": "3.6.7",
+    "description": "InputTip - 规则驱动的输入法状态管理器 (即时、强大、高效)",
+    "homepage": "https://inputtip.abgox.com/",
+    "license": {
+        "identifier": "AGPL-3.0-only"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/abgox/InputTip/releases/download/v3.6.7/InputTip.zip",
+            "hash": "4f1457b40538ab82a110f45a26f8f9b99711e3b83833e366dff6db83d9d4b2a9"
+        }
+    },
+    "extract_dir": "InputTip-main",
+    "bin": [
+        [
+            "app\\src\\AutoHotkey\\AutoHotkey64.exe",
+            "InputTip",
+            "app\\src\\InputTip.ahk"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "app\\src\\AutoHotkey\\AutoHotkey64.exe",
+            "InputTip",
+            "\"$dir\\app\\src\\InputTip.ahk\"",
+            "app\\src\\temp\\icon\\default-app.ico"
+        ]
+    ],
+    "persist": "app\\src\\data",
+    "checkver": {
+        "github": "https://github.com/abgox/InputTip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/abgox/InputTip/releases/download/v$version/InputTip.zip"
+            }
+        }
+    }
+}
