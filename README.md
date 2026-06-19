@@ -8,6 +8,9 @@
 
 *   **图吧工具箱 (tbtool)**：最纯净的硬件检测与系统测试工具合集。
 *   **InputTip (inputtip)**：规则驱动的输入法状态（中/英/大写锁定）管理器。
+*   **TrafficMonitor (trafficmonitor)**：任务栏网速与硬件监控工具。
+*   **noMeiryoUI (nomeiryoui)**：方便地修改 Windows 系统各个部分的字体设置。
+*   **LiteMonitor (litemonitor)**：轻量级桌面硬件与系统状态监控工具。
 
 ---
 
