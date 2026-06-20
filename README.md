@@ -1,4 +1,4 @@
-﻿# 🚀 我的 Scoop 软件源 (Scoop Bucket)
+# 🚀 我的 Scoop 软件源 (Scoop Bucket)
 
 这是一个用于存放我个人常用软件安装配置（Manifest）的 Scoop 软件源，同时也是一份详尽的 Scoop 仓库维护与开发全能教程。使用 Scoop 可以方便地在 Windows 环境下进行一键安装、更新和管理。
 
@@ -33,6 +33,7 @@
 *   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器 (主页已关联 GitHub 源码库)。
 *   **Alice in Cradle (alice-in-cradle)**：同人 2D 动作游戏 (已填入正版游戏最新客户端直链接口)。
 *   **PCL 启动器 (pcl2)**：国内备受欢迎的《我的世界》第三方游戏启动器模板。
+*   **Cheat Engine (cheat-engine)**：开源的内存修改与调试工具 (由于官方 7.4 绿色版直链已下线，预留本地私有占位符)。
 
 ---
 
@@ -58,7 +59,7 @@
     ```
 *   **方式 B：通过远程 Git 仓库添加（推送到 GitHub / Gitee 后使用）**
     ```powershell
-    scoop bucket add my-bucket "您的仓库Git地址"
+    scoop bucket add my-bucket https://github.com/teformel/scoop-bucket.git
     ```
 
 ### 2. 安装软件
