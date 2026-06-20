@@ -29,6 +29,7 @@
 *   **N_m3u8DL-CLI (n-m3u8dl-cli)**：经典好用的 m3u8 命令行视频下载器 (自动依赖安装 ffmpeg)。
 *   **WinFi (winfi)**：专业的无线 WiFi 现场勘测与无线信号诊断分析仪 (WinFi Pro 免费版)。
 *   **PiliPlus (piliplus)**：基于 Flutter 开发的第三方哔哩哔哩 (Bilibili) 客户端。
+*   **Aria2 Next (aria2-next)**：基于 aria2 的维护分支，具有大量的缺陷修复，并原生支持 ED2K/eMule 协议。
 
 ### 本地私有/官方动态软件 (预留占位符清单)
 *   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器 (主页已关联 GitHub 源码库)。
