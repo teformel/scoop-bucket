@@ -1,4 +1,4 @@
-# 🚀 我的 Scoop 软件源 (Scoop Bucket)
+﻿# 🚀 我的 Scoop 软件源 (Scoop Bucket)
 
 这是一个用于存放我个人常用软件安装配置（Manifest）的 Scoop 软件源，同时也是一份详尽的 Scoop 仓库维护与开发全能教程。使用 Scoop 可以方便地在 Windows 环境下进行一键安装、更新和管理。
 
@@ -26,22 +26,27 @@
 *   **Godot 3 (godot3)**：开源、轻量级的 2D/3D 游戏引擎 v3 稳定维护版。
 *   **LiteLoaderQQNT (liteloaderqqnt)**：新版 QQNT 客户端插件加载器。
 *   **WifiInfoView (wifiinfoview)**：多维度无线 WiFi 网络热点扫描查看器。
+*   **N_m3u8DL-CLI (n-m3u8dl-cli)**：经典好用的 m3u8 命令行视频下载器 (自动依赖安装 ffmpeg)。
+*   **WinFi (winfi)**：专业的无线 WiFi 现场勘测与无线信号诊断分析仪 (WinFi Pro 免费版)。
 
-### 本地私有软件 (预留 `<USER_URL>` 占位符清单)
-*   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器。
-*   **Alice in Cradle (alice-in-cradle)**：同人 2D 动作游戏（Alice in Cradle 029g）。
-*   **PCL 启动器 (pcl2)**：国内备受欢迎的《我的世界》第三方游戏启动器。
-*   **MyDockFinder (mydockfinder)**：极致还原 macOS 动态 Dock 栏与 Finder 顶栏的工具。
-*   **N_m3u8DL-CLI (n-m3u8dl-cli-bundle)**：Milaoda M3U8 下载器自带 ffmpeg 及 SimpleG 的整合版本。
-*   **WinFi (winfi)**：专业的无线 WiFi 现场勘测与无线信号诊断分析仪。
-*   **搞机工具箱 (gj-toolbox)**：晨钟酱玩机工具箱 (v10.1.0)。
-*   **几何画板 (geometers-sketchpad)**：经典的数学物理教学作图工具。
-*   **妹调教日记 (imouto-diary)**：同人视觉小说游戏。
-*   **手写模拟器 (handwrite-simulator)**：生成仿手写钢笔字迹图像的效率小工具。
-*   **软媒魔方 (ruanmei-magicbook)**：软媒魔方经典组件去广告绿色便携版。
+### 本地私有/官方动态软件 (预留占位符清单)
+*   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器 (主页已关联 GitHub 源码库)。
+*   **Alice in Cradle (alice-in-cradle)**：同人 2D 动作游戏 (已填入正版游戏最新客户端直链接口)。
+*   **PCL 启动器 (pcl2)**：国内备受欢迎的《我的世界》第三方游戏启动器模板。
 
 ---
 
+## 📌 待收录软件 (因缺乏稳定公开直链暂未添加)
+
+以下免安装便携软件由于官网没有提供免登录的稳定下载直链，目前暂未制作 Scoop 清单。后续如找到直链可能会重新收录：
+*   **MyDockFinder** (仿 Mac 桌面美化工具)
+*   **搞机工具箱** (晨钟酱玩机激活工具)
+*   **几何画板** (经典的函数几何作图软件)
+*   **妹调教日记** (同人视觉小说游戏)
+*   **手写模拟器** (仿人手写字迹排版生成器)
+*   **软媒魔方** (第三方绿色去广告便携优化版)
+
+---
 ## 🛠️ 快速使用指南
 
 ### 1. 添加此软件源

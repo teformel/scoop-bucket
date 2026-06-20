@@ -1,0 +1,27 @@
+{
+    "version": "3.0.2",
+    "description": "N_m3u8DL-CLI - 经典且功能强大、基于 .NET 的命令行 M3U8/DASH 多媒体流视频下载工具",
+    "homepage": "https://github.com/nilaoda/N_m3u8DL-CLI",
+    "license": "MIT",
+    "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/v3.0.2/N_m3u8DL-CLI_v3.0.2.exe",
+    "hash": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+    "depends": "ffmpeg",
+    "bin": [
+        [
+            "N_m3u8DL-CLI_v3.0.2.exe",
+            "N_m3u8DL-CLI"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/nilaoda/N_m3u8DL-CLI"
+    },
+    "autoupdate": {
+        "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/v$version/N_m3u8DL-CLI_v$version.exe",
+        "bin": [
+            [
+                "N_m3u8DL-CLI_v$version.exe",
+                "N_m3u8DL-CLI"
+            ]
+        ]
+    }
+}
