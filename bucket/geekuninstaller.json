@@ -1,0 +1,23 @@
+{
+    "version": "1.5.3.170",
+    "description": "Geek Uninstaller - 极速轻量级且功能强大的软件卸载工具，支持深度扫描残留清理及强力卸载",
+    "homepage": "https://geekuninstaller.com/",
+    "license": "Freeware",
+    "url": "https://geekuninstaller.com/geek.zip",
+    "hash": "44ed57036b0f176242a9f7b9094e68a5013a686c479b6ba4c06a284ce97c5750",
+    "bin": "geek.exe",
+    "shortcuts": [
+        [
+            "geek.exe",
+            "Geek Uninstaller"
+        ]
+    ],
+    "notes": "Geek Uninstaller 运行需要管理员权限。",
+    "checkver": {
+        "url": "https://geekuninstaller.com/download",
+        "regex": "<b>([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://geekuninstaller.com/geek.zip"
+    }
+}
