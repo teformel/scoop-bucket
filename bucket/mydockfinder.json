@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "description": "MyDockFinder - 仿 Mac 桌面美化工具",
+    "homepage": "https://www.mydockfinder.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://bucket.maorila.cc.cd/MyDockFinder_win32_64_setup.zip",
+            "hash": "1606cd24cfe496af12e0ceafee6f81d676874ef482b00c13c9c4e6d194e9f1e2",
+            "extract_dir": "MyDockFinder_win32_64_setup/MyDock",
+            "bin": "Dock_64.exe",
+            "shortcuts": [
+                ["Dock_64.exe", "MyDockFinder"]
+            ]
+        },
+        "32bit": {
+            "url": "https://bucket.maorila.cc.cd/MyDockFinder_win32_64_setup.zip",
+            "hash": "1606cd24cfe496af12e0ceafee6f81d676874ef482b00c13c9c4e6d194e9f1e2",
+            "extract_dir": "MyDockFinder_win32_64_setup/MyDock",
+            "bin": "Dock.exe",
+            "shortcuts": [
+                ["Dock.exe", "MyDockFinder"]
+            ]
+        }
+    }
+}

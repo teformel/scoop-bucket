@@ -1,18 +1,21 @@
 {
     "version": "2.0",
     "description": "Plain Craft Launcher 2 (PCL2) - 优秀且强大的《我的世界》第三方启动器",
-    "url": "<USER_URL>/PCL2.exe",
-    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
-    "bin": "PCL2.exe",
+    "homepage": "https://afdian.com/a/pclinux",
+    "license": "Proprietary",
+    "url": "https://bucket.maorila.cc.cd/Plain%20Craft%20Launcher%202.zip",
+    "hash": "55b3ec77fe2497f27ad0a9f034f90c82bb40be6ad126e65ff4435add1d02afc8",
+    "bin": [
+        ["Plain Craft Launcher 2.exe", "pcl2"]
+    ],
     "shortcuts": [
         [
-            "PCL2.exe",
+            "Plain Craft Launcher 2.exe",
             "Plain Craft Launcher 2"
         ]
     ],
     "persist": [
         "PCL",
         ".minecraft"
-    ],
-    "notes": "PCL 启动器官方由爱发电进行分发。请将 PCL2 可执行文件上传至私有存储或本地服务，并在此处配置您的私有 url 极其哈希。"
+    ]
 }
