@@ -1,0 +1,29 @@
+{
+    "version": "63.4.0",
+    "description": "HEU KMS Activator - 经典的 Windows/Office 本地 KMS 激活工具及数字许可证激活利器",
+    "homepage": "https://github.com/zbezj/HEU_KMS_Activator",
+    "license": "Freeware",
+    "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/63.4.0/HEU_KMS_Activator_v63.4.0.iso",
+    "hash": "e0486c86777d62f1095d19837367ddcda2ca0e37952adcdeb5016bd0c9969ee2",
+    "bin": "HEU_KMS_Activator_v63.4.0.exe",
+    "shortcuts": [
+        [
+            "HEU_KMS_Activator_v63.4.0.exe",
+            "HEU KMS Activator"
+        ]
+    ],
+    "notes": "警告：HEU KMS Activator 是激活工具，安装和运行可能会被 Windows Defender 或其他杀毒软件拦截并报毒。若被杀毒软件误杀，请将 Scoop 安装路径加入排除项/白名单。",
+    "checkver": {
+        "github": "https://github.com/zbezj/HEU_KMS_Activator"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/$version/HEU_KMS_Activator_v$version.iso",
+        "bin": "HEU_KMS_Activator_v$version.exe",
+        "shortcuts": [
+            [
+                "HEU_KMS_Activator_v$version.exe",
+                "HEU KMS Activator"
+            ]
+        ]
+    }
+}

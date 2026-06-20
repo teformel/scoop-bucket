@@ -31,6 +31,7 @@
 *   **PiliPlus (piliplus)**：基于 Flutter 开发的第三方哔哩哔哩 (Bilibili) 客户端。
 *   **Aria2 Next (aria2-next)**：基于 aria2 的维护分支，具有大量的缺陷修复，并原生支持 ED2K/eMule 协议。
 *   **Geek Uninstaller (geekuninstaller)**：极速轻量级软件卸载工具，支持彻底清理垃圾残留及强力卸载。
+*   **HEU KMS Activator (heu-kms-activator)**：经典的 Windows/Office 全能本地及数字许可证激活工具。
 
 ### 本地私有/官方动态软件 (预留占位符清单)
 *   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器 (主页已关联 GitHub 源码库)。
