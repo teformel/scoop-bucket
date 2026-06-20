@@ -1,0 +1,23 @@
+{
+    "version": "2026-06-19",
+    "description": "FFmpeg - 跨平台多媒体框架，用于解码、编码、转码、复用和过滤多媒体内容 (Gyan.dev Git Full Build)",
+    "homepage": "https://www.gyan.dev/ffmpeg/builds/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z",
+    "hash": "481671797e62659a73c6500126faaae6ed62bbe62d042dda44d60a2d647050b9",
+    "bin": [
+        "bin\\ffmpeg.exe",
+        "bin\\ffplay.exe",
+        "bin\\ffprobe.exe"
+    ],
+    "checkver": {
+        "url": "https://www.gyan.dev/ffmpeg/builds/git-version",
+        "regex": "([0-9]{4}-[0-9]{2}-[0-9]{2})"
+    },
+    "autoupdate": {
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

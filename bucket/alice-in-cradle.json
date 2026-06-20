@@ -1,0 +1,15 @@
+{
+    "version": "0.29g",
+    "description": "Alice in Cradle (爱丽丝与发狂的摇篮) - Windows 2D 动作游戏",
+    "url": "<USER_URL>/AliceInCradle_ver029g.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "extract_dir": "dOMEwcbb_AliceInCradle Win ver029g",
+    "bin": "AliceInCradle.exe",
+    "shortcuts": [
+        [
+            "AliceInCradle.exe",
+            "Alice In Cradle"
+        ]
+    ],
+    "notes": "此游戏为私有商业同人游戏。请将游戏压缩包上传至私有存储后，将 url 与 hash 替换为您的私有直链与 SHA256 校验值。"
+}

@@ -1,0 +1,25 @@
+{
+    "version": "1.1.8",
+    "description": "Aria2-Manager - 轻松地在 Windows 后台运行和管理 aria2 命令行下载工具",
+    "homepage": "https://github.com/alexhua/Aria2-Manager",
+    "license": "MIT",
+    "url": "https://github.com/alexhua/Aria2-Manager/releases/download/v1.1.8/Aria2Manager-Full.zip",
+    "hash": "a8c2402dd90611a2b4378fe71a2f569775f8495af134b2e39c8ad5eb0a35bd82",
+    "bin": "Aria2Manager.exe",
+    "shortcuts": [
+        [
+            "Aria2Manager.exe",
+            "Aria2 Manager"
+        ]
+    ],
+    "persist": [
+        "aria2.conf",
+        "aria2.session"
+    ],
+    "checkver": {
+        "github": "https://github.com/alexhua/Aria2-Manager"
+    },
+    "autoupdate": {
+        "url": "https://github.com/alexhua/Aria2-Manager/releases/download/v$version/Aria2Manager-Full.zip"
+    }
+}

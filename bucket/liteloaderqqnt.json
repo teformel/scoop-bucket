@@ -1,0 +1,9 @@
+{
+    "version": "1.4.1",
+    "description": "LiteLoaderQQNT - QQNT的轻量级插件加载器 (最终归档版)",
+    "homepage": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT",
+    "license": "MIT",
+    "url": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.4.1/LiteLoaderQQNT.zip",
+    "hash": "3b2d9b7214bdfef16d5007b1f277a9f70688785ba11fc03ef091aa8214cdc343",
+    "notes": "这是 LiteLoaderQQNT 的官方最终归档版本 v1.4.1。如果需要自动加载，请参考官方说明配置相关注入文件。"
+}

@@ -1,0 +1,23 @@
+{
+    "version": "3.00",
+    "description": "WifiInfoView - NirSoft 提供的 WiFi 网络扫描与多维度信息查看工具",
+    "homepage": "https://www.nirsoft.net/utils/wifi_information_view.html",
+    "license": "Freeware",
+    "url": "https://www.nirsoft.net/utils/wifiinfoview-x64.zip",
+    "hash": "9264a6ef47b882fa67b9431f6410c62be091524c39877a09cf6744dea8d8a988",
+    "bin": "WifiInfoView.exe",
+    "shortcuts": [
+        [
+            "WifiInfoView.exe",
+            "WifiInfoView"
+        ]
+    ],
+    "persist": "WifiInfoView.cfg",
+    "checkver": {
+        "url": "https://www.nirsoft.net/utils/wifi_information_view.html",
+        "regex": "Version ([0-9.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.nirsoft.net/utils/wifiinfoview-x64.zip"
+    }
+}

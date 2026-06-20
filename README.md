@@ -6,11 +6,39 @@
 
 ## 📁 当前收录软件
 
+### 公共开源软件 (提供自动更新)
 *   **图吧工具箱 (tbtool)**：最纯净的硬件检测与系统测试工具合集。
-*   **InputTip (inputtip)**：规则驱动的输入法状态（中/英/大写锁定）管理器。
-*   **TrafficMonitor (trafficmonitor)**：任务栏网速与硬件监控工具。
-*   **noMeiryoUI (nomeiryoui)**：方便地修改 Windows 系统各个部分的字体设置。
-*   **LiteMonitor (litemonitor)**：轻量级桌面硬件与系统状态监控工具。
+*   **InputTip (inputtip)**：输入法状态（中/英/大写锁定）提示管理器。
+*   **TrafficMonitor (trafficmonitor)**：任务栏网速与硬件状态监控工具。
+*   **noMeiryoUI (nomeiryoui)**：修改 Windows 系统各部分字体的快捷工具。
+*   **LiteMonitor (litemonitor)**：轻量级桌面硬件监控。
+*   **Czkawka (czkawka)**：多功能重复文件与空文件夹清理工具。
+*   **Ventoy (ventoy)**：新一代多合一系统 U 盘启动制作工具。
+*   **KeyCastOW (keycastow)**：键盘按键可视化回显工具。
+*   **Aria2-Manager (aria2manager)**：Aria2 命令行下载器的后台挂载与管理工具。
+*   **Blender 3.6 LTS (blender36)**：开源三维动画制作软件 3.6 长期支持版。
+*   **ChoEazyCopy (choeazycopy-cn)**：微软 Robocopy 经典命令行复制工具的中文 GUI 包装。
+*   **DesktopInfo (desktopinfo)**：将系统硬件监控信息直接呈现在桌面壁纸上的工具。
+*   **小熊猫 Dev-C++ (devcpp-redpanda)**：快速、轻量的 C/C++ IDE 便携版。
+*   **Dism++ (dismplusplus)**：实用的 Windows 系统底层组件优化与精简清理工具。
+*   **FFmpeg (ffmpeg)**：经典的多媒体音视频处理库 (Gyan.dev Git 版)。
+*   **GDA (gda)**：GJoy Dex Analyzer 安卓 APK 反编译与逆向分析工具。
+*   **Godot 3 (godot3)**：开源、轻量级的 2D/3D 游戏引擎 v3 稳定维护版。
+*   **LiteLoaderQQNT (liteloaderqqnt)**：新版 QQNT 客户端插件加载器。
+*   **WifiInfoView (wifiinfoview)**：多维度无线 WiFi 网络热点扫描查看器。
+
+### 本地私有软件 (预留 `<USER_URL>` 占位符清单)
+*   **APK助手 (apk-helper)**：方便的本地 APK 快速安装器。
+*   **Alice in Cradle (alice-in-cradle)**：同人 2D 动作游戏（Alice in Cradle 029g）。
+*   **PCL 启动器 (pcl2)**：国内备受欢迎的《我的世界》第三方游戏启动器。
+*   **MyDockFinder (mydockfinder)**：极致还原 macOS 动态 Dock 栏与 Finder 顶栏的工具。
+*   **N_m3u8DL-CLI (n-m3u8dl-cli-bundle)**：Milaoda M3U8 下载器自带 ffmpeg 及 SimpleG 的整合版本。
+*   **WinFi (winfi)**：专业的无线 WiFi 现场勘测与无线信号诊断分析仪。
+*   **搞机工具箱 (gj-toolbox)**：晨钟酱玩机工具箱 (v10.1.0)。
+*   **几何画板 (geometers-sketchpad)**：经典的数学物理教学作图工具。
+*   **妹调教日记 (imouto-diary)**：同人视觉小说游戏。
+*   **手写模拟器 (handwrite-simulator)**：生成仿手写钢笔字迹图像的效率小工具。
+*   **软媒魔方 (ruanmei-magicbook)**：软媒魔方经典组件去广告绿色便携版。
 
 ---
 

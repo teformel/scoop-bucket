@@ -1,0 +1,23 @@
+{
+    "version": "3.6.2",
+    "description": "Godot Engine v3.x - 开源、轻量级、跨平台的游戏引擎 (v3.x 稳定维护版)",
+    "homepage": "https://godotengine.org/",
+    "license": "MIT",
+    "url": "https://github.com/godotengine/godot/releases/download/3.6.2-stable/Godot_v3.6.2-stable_win64.exe.zip",
+    "hash": "18c4d1530b63bb0a0d310daaca0e42a9875f99fca8178a9a7a89e9c859261178",
+    "bin": "Godot_v3.6.2-stable_win64.exe",
+    "shortcuts": [
+        [
+            "Godot_v3.6.2-stable_win64.exe",
+            "Godot Engine v3"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/godotengine/godot/releases",
+        "regex": "tag/(3\\.6\\.[0-9]+)-stable"
+    },
+    "autoupdate": {
+        "url": "https://github.com/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_win64.exe.zip",
+        "bin": "Godot_v$version-stable_win64.exe"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "version": "4.12",
+    "description": "GDA (GJoy Dex Analyzer) - 极其强大、纯 native 且轻量级的集成安卓反编译分析工具",
+    "homepage": "https://github.com/charles2gan/GDA-android-reversing-Tool",
+    "license": "Freeware",
+    "url": "https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA4.12/gda4.12.zip",
+    "hash": "510924aabfebfe497f22d71520102c8b037256c6935a8e827c0a1bdeec3551ad",
+    "bin": "gda4.12.exe",
+    "shortcuts": [
+        [
+            "gda4.12.exe",
+            "GDA Android Reversing Tool"
+        ]
+    ],
+    "persist": "config",
+    "checkver": {
+        "url": "https://api.github.com/repos/charles2gan/GDA-android-reversing-Tool/releases/latest",
+        "regex": "tag/GDA([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA$version/gda$version.zip",
+        "bin": "gda$version.exe"
+    }
+}

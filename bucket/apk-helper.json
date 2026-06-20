@@ -1,0 +1,14 @@
+{
+    "version": "5.2-20260422",
+    "description": "APK助手 - Windows 端的安卓 APK 安装与管理辅助工具",
+    "url": "<USER_URL>/apk_helper-5.2-20260422.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bin": "APKHelper.exe",
+    "shortcuts": [
+        [
+            "APKHelper.exe",
+            "APK助手"
+        ]
+    ],
+    "notes": "此软件无公开下载直链。请将本地软件压缩包上传至私有存储后，将 url 与 hash 替换为您的私有直链与 SHA256 校验值。"
+}

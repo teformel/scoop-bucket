@@ -1,0 +1,22 @@
+{
+    "version": "7.4",
+    "description": "Cheat Engine - 开源的内存修改与调试工具 (免安装绿色版)",
+    "homepage": "https://www.cheatengine.org/",
+    "license": "Proprietary",
+    "url": "<USER_URL>/CheatEngine74_MissingSetup.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bin": [
+        "Cheat Engine.exe",
+        [
+            "Cheat Engine.exe",
+            "cheatengine"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Cheat Engine.exe",
+            "Cheat Engine"
+        ]
+    ],
+    "notes": "由于官方已删除了 7.4 版本的 MissingSetup 绿色版直链，请将您的本地包上传至私有存储并在此处配置下载 url。"
+}

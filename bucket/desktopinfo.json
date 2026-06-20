@@ -1,0 +1,18 @@
+{
+    "version": "3.22.0",
+    "description": "Desktop Info - 在 Windows 桌面壁纸上实时嵌入显示系统硬件性能指标的轻量工具",
+    "homepage": "https://www.glenn.delahoy.com/desktopinfo/",
+    "license": "Freeware",
+    "url": "https://www.glenn.delahoy.com/downloads/desktopinfo.zip",
+    "hash": "25aac1515915fc8732c14d783318e22af4560ed4cec93cc2a12d5945f368f6f3",
+    "bin": "desktopinfo.exe",
+    "shortcuts": [
+        [
+            "desktopinfo.exe",
+            "Desktop Info"
+        ]
+    ],
+    "persist": [
+        "desktopinfo.ini",
+        "skins"
+    ]}

@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "description": "WinFi - Windows 平台专业的 WiFi 网络分析与诊断工具",
+    "url": "<USER_URL>/WinFi.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bin": "WinFi.exe",
+    "shortcuts": [
+        [
+            "WinFi.exe",
+            "WinFi"
+        ]
+    ],
+    "notes": "该软件已被原作者下线，公网上无稳定直链。请将您的备用包上传至私有存储并在此处配置下载 url。"
+}

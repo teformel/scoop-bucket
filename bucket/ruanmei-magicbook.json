@@ -1,0 +1,14 @@
+{
+    "version": "6.2.5",
+    "description": "软媒魔方 (绿色去广告版) - 经典的 Windows 系统优化与垃圾清理集成工具箱",
+    "url": "<USER_URL>/Ruanmei_MagicBook_v6.2.5_Portable.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bin": "pcmaster.exe",
+    "shortcuts": [
+        [
+            "pcmaster.exe",
+            "软媒魔方"
+        ]
+    ],
+    "notes": "此为软媒魔方去广告绿色版，建议您上传至私有存储并配置您的 url。"
+}
